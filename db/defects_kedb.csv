@@ -1,0 +1,208 @@
+Summary,Issue key,Issue Type,Status,Project key,Assignee,Reporter,Created,Updated,Description,Attachment,Comments,Custom field (MTP Gate),Custom field (Severity),Priority
+Test Automation - Screen load failure in ME23N,COTEST-0002,Bug,Open,COTEST,SUBHRA,SAMUEL,13/11/2025 01:00,13/11/2025 17:00,"During automation execution for transaction ME23N, an unexpected issue occurred. The system halted unexpectedly.",ME23N_error_1700.png,"13/Nov/25 03:06;SNEHA;Retest in progress after updated data setup.
+13/Nov/25 02:30;PINKY;Issue reproduced across environments; further analysis required. Resolution: Fixed screen load timeout issue. Root Cause: Timeout due to heavy data load.",R1.1,Moderate,High
+MB51 - System returned blank screen during automation,COTEST-0003,Bug,New,COTEST,SUBHRA,PINKY,02/11/2025 17:00,03/11/2025 19:00,"During automation execution for transaction MB51, an unexpected issue occurred. The system halted unexpectedly.",MB51_error_1900.png,"02/Nov/25 18:02;ROSHA;Retest in progress after updated data setup.
+02/Nov/25 18:12;SNEHA;Retest in progress after updated data setup. Resolution: Patched UI rendering bug. Root Cause: Null pointer exception in UI module.",R3.2,Major,Normal
+Automation - Login flow broken when accessing MM41,COTEST-0004,Bug,New,COTEST,ROSHA,SHEEBA,24/11/2025 05:00,25/11/2025 07:00,"During automation execution for transaction MM41, an unexpected issue occurred. The system halted unexpectedly.",MM41_error_0700.png,"24/Nov/25 07:24;SAMUEL;Fix deployed for validation; monitoring continues.
+24/Nov/25 06:26;SUBHRA;Fix deployed for validation; monitoring continues.
+24/Nov/25 07:29;SUBHRA;Fix deployed for validation; monitoring continues.
+24/Nov/25 06:50;PINKY;Retest in progress after updated data setup.
+24/Nov/25 05:53;PINKY;Issue reproduced across environments; further analysis required. Resolution: Corrected login authentication logic. Root Cause: Incorrect session handling.",R2,Major,Normal
+Automation - Login flow broken when accessing ME23N,COTEST-0005,Bug,Reopened,COTEST,ROSHA,SNEHA,08/11/2025 13:00,10/11/2025 11:00,"During automation execution for transaction ME23N, an unexpected issue occurred. The system halted unexpectedly.",ME23N_error_1100.png,"08/Nov/25 14:55;PINKY;Fix deployed for validation; monitoring continues.
+08/Nov/25 15:20;ROSHA;Retest in progress after updated data setup.
+08/Nov/25 13:52;SUBHRA;Fix deployed for validation; monitoring continues.
+08/Nov/25 13:58;SUBHRA;Fix deployed for validation; monitoring continues. Resolution: Corrected login authentication logic. Root Cause: Incorrect session handling.",R2,Major,Normal
+VF03 - System returned blank screen during automation,COTEST-0006,Bug,New,COTEST,SNEHA,SUBHRA,23/11/2025 03:00,24/11/2025 10:00,"During automation execution for transaction VF03, an unexpected issue occurred. The system halted unexpectedly.",VF03_error_1000.png,"23/Nov/25 03:37;ROSHA;Issue reproduced across environments; further analysis required.
+23/Nov/25 04:07;ROSHA;Issue reproduced across environments; further analysis required. Resolution: Patched UI rendering bug. Root Cause: Null pointer exception in UI module.",R2,Major,Normal
+Automation - Login flow broken when accessing FB03,COTEST-0007,Bug,Open,COTEST,SNEHA,ROSHA,04/11/2025 01:00,04/11/2025 10:00,"During automation execution for transaction FB03, an unexpected issue occurred. The system halted unexpectedly.",FB03_error_1000.png,"04/Nov/25 03:44;SUBHRA;Retest in progress after updated data setup.
+04/Nov/25 02:43;SHEEBA;Fix deployed for validation; monitoring continues. Resolution: Corrected login authentication logic. Root Cause: Incorrect session handling.",R4,Minor,High
+Test Automation - Screen load failure in FB03,COTEST-0008,Bug,Reopened,COTEST,SUBHRA,ROSHA,22/11/2025 00:00,22/11/2025 19:00,"During automation execution for transaction FB03, an unexpected issue occurred. The system halted unexpectedly.",FB03_error_1900.png,"22/Nov/25 00:11;SUBHRA;Fix deployed for validation; monitoring continues.
+22/Nov/25 01:08;PINKY;Fix deployed for validation; monitoring continues.
+22/Nov/25 00:54;SUBHRA;Fix deployed for validation; monitoring continues. Resolution: Fixed screen load timeout issue. Root Cause: Timeout due to heavy data load.",R2,Major,Normal
+Automation - Unable to launch ME21N transaction,COTEST-0009,Bug,Closed,COTEST,PINKY,SNEHA,07/11/2025 21:00,08/11/2025 22:00,"During automation execution for transaction ME21N, an unexpected issue occurred. The system halted unexpectedly.",ME21N_error_2200.png,"07/Nov/25 21:48;PINKY;Issue reproduced across environments; further analysis required.
+07/Nov/25 23:52;SUBHRA;Technical team reviewing logs to identify workflow deviation. Resolution: Under investigation. Root Cause: Unknown.",R4,Minor,High
+MM41 - Validation step failure during automated run,COTEST-0010,Bug,Open,COTEST,PINKY,SUBHRA,05/11/2025 04:00,05/11/2025 19:00,"During automation execution for transaction MM41, an unexpected issue occurred. The system halted unexpectedly.",MM41_error_1900.png,"05/Nov/25 04:47;SHEEBA;Issue reproduced across environments; further analysis required.
+05/Nov/25 05:47;SHEEBA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+05/Nov/25 05:09;SNEHA;Technical team reviewing logs to identify workflow deviation.
+05/Nov/25 06:52;SUBHRA;Technical team reviewing logs to identify workflow deviation.
+05/Nov/25 05:16;SUBHRA;Technical team reviewing logs to identify workflow deviation. Resolution: Under investigation. Root Cause: Unknown.",R2.1,Major,Normal
+Automation - Login flow broken when accessing VF03,COTEST-0011,Bug,In Progress,COTEST,ROSHA,SAMUEL,21/11/2025 03:00,22/11/2025 01:00,"During automation execution for transaction VF03, an unexpected issue occurred. The system halted unexpectedly.",VF03_error_0100.png,"21/Nov/25 05:01;SHEEBA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+21/Nov/25 05:39;SUBHRA;Retest in progress after updated data setup.
+21/Nov/25 04:47;SHEEBA;Issue reproduced across environments; further analysis required.
+21/Nov/25 05:58;SHEEBA;Issue observed repeatedly during automation execution. Requires detailed investigation. Resolution: Corrected login authentication logic. Root Cause: Incorrect session handling.",R2,Moderate,Low
+Test Automation - Screen load failure in VF03,COTEST-0012,Bug,New,COTEST,SAMUEL,SHEEBA,03/11/2025 00:00,03/11/2025 23:00,"During automation execution for transaction VF03, an unexpected issue occurred. The system halted unexpectedly.",VF03_error_2300.png,"03/Nov/25 03:00;SNEHA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+03/Nov/25 01:51;SUBHRA;Fix deployed for validation; monitoring continues.
+03/Nov/25 02:07;ROSHA;Technical team reviewing logs to identify workflow deviation.
+03/Nov/25 00:42;ROSHA;Technical team reviewing logs to identify workflow deviation.
+03/Nov/25 00:01;ROSHA;Technical team reviewing logs to identify workflow deviation. Resolution: Fixed screen load timeout issue. Root Cause: Timeout due to heavy data load.",R2,Major,High
+Automation - Unexpected error while navigating to MIRO,COTEST-0013,Bug,Open,COTEST,PINKY,SAMUEL,17/11/2025 18:00,19/11/2025 11:00,"During automation execution for transaction MIRO, an unexpected issue occurred. The system halted unexpectedly.",MIRO_error_1100.png,"17/Nov/25 18:45;PINKY;Technical team reviewing logs to identify workflow deviation.
+17/Nov/25 20:05;SNEHA;Fix deployed for validation; monitoring continues.
+17/Nov/25 19:25;PINKY;Technical team reviewing logs to identify workflow deviation.
+17/Nov/25 20:43;SNEHA;Retest in progress after updated data setup. Resolution: Under investigation. Root Cause: Unknown.",R2,Major,Low
+Automation - Login flow broken when accessing ME21N,COTEST-0014,Bug,Open,COTEST,SNEHA,ROSHA,07/11/2025 00:00,08/11/2025 20:00,"During automation execution for transaction ME21N, an unexpected issue occurred. The system halted unexpectedly.",ME21N_error_2000.png,"07/Nov/25 00:13;SUBHRA;Issue reproduced across environments; further analysis required.
+07/Nov/25 02:02;ROSHA;Issue reproduced across environments; further analysis required.
+07/Nov/25 01:38;SNEHA;Issue reproduced across environments; further analysis required. Resolution: Corrected login authentication logic. Root Cause: Incorrect session handling.",R2,Major,Normal
+Automation - Unexpected error while navigating to ME23N,COTEST-0015,Bug,Open,COTEST,ROSHA,SHEEBA,07/11/2025 11:00,09/11/2025 10:00,"During automation execution for transaction ME23N, an unexpected issue occurred. The system halted unexpectedly.",ME23N_error_1000.png,"07/Nov/25 12:35;SHEEBA;Retest in progress after updated data setup.
+07/Nov/25 12:01;PINKY;Issue reproduced across environments; further analysis required.
+07/Nov/25 11:05;SHEEBA;Issue reproduced across environments; further analysis required.
+07/Nov/25 13:19;SHEEBA;Technical team reviewing logs to identify workflow deviation.
+07/Nov/25 12:50;PINKY;Retest in progress after updated data setup. Resolution: Under investigation. Root Cause: Unknown.",R1.1,Minor,Low
+MIRO - Validation step failure during automated run,COTEST-0016,Bug,Closed,COTEST,ROSHA,SNEHA,08/11/2025 19:00,10/11/2025 15:00,"During automation execution for transaction MIRO, an unexpected issue occurred. The system halted unexpectedly.",MIRO_error_1500.png,"08/Nov/25 20:26;ROSHA;Retest in progress after updated data setup.
+08/Nov/25 19:18;ROSHA;Fix deployed for validation; monitoring continues. Resolution: Under investigation. Root Cause: Unknown.",R4.1,Major,Normal
+Automation - Unable to launch MIRO transaction,COTEST-0017,Bug,New,COTEST,SNEHA,ROSHA,03/11/2025 12:00,03/11/2025 19:00,"During automation execution for transaction MIRO, an unexpected issue occurred. The system halted unexpectedly.",MIRO_error_1900.png,"03/Nov/25 14:44;SNEHA;Fix deployed for validation; monitoring continues.
+03/Nov/25 12:39;ROSHA;Issue reproduced across environments; further analysis required. Resolution: Under investigation. Root Cause: Unknown.",R4,Minor,Normal
+Automation - Unable to launch FB03 transaction,COTEST-0018,Bug,In Progress,COTEST,SUBHRA,PINKY,06/11/2025 21:00,08/11/2025 04:00,"During automation execution for transaction FB03, an unexpected issue occurred. The system halted unexpectedly.",FB03_error_0400.png,"06/Nov/25 21:16;SAMUEL;Issue observed repeatedly during automation execution. Requires detailed investigation.
+06/Nov/25 22:29;PINKY;Fix deployed for validation; monitoring continues.
+06/Nov/25 21:27;SNEHA;Retest in progress after updated data setup.
+06/Nov/25 21:59;ROSHA;Technical team reviewing logs to identify workflow deviation.
+06/Nov/25 22:25;SHEEBA;Technical team reviewing logs to identify workflow deviation. Resolution: Under investigation. Root Cause: Unknown.",R1.1,Major,Normal
+Automation - Unable to launch ME23N transaction,COTEST-0019,Bug,Reopened,COTEST,ROSHA,SAMUEL,11/11/2025 20:00,12/11/2025 03:00,"During automation execution for transaction ME23N, an unexpected issue occurred. The system halted unexpectedly.",ME23N_error_0300.png,"11/Nov/25 22:23;SNEHA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+11/Nov/25 20:21;ROSHA;Issue observed repeatedly during automation execution. Requires detailed investigation. Resolution: Under investigation. Root Cause: Unknown.",R1.1,Major,High
+Test Automation - Screen load failure in ME23N,COTEST-0020,Bug,Open,COTEST,ROSHA,SHEEBA,07/11/2025 16:00,08/11/2025 23:00,"During automation execution for transaction ME23N, an unexpected issue occurred. The system halted unexpectedly.",ME23N_error_2300.png,"07/Nov/25 18:25;SAMUEL;Issue observed repeatedly during automation execution. Requires detailed investigation.
+07/Nov/25 18:49;SAMUEL;Issue observed repeatedly during automation execution. Requires detailed investigation. Resolution: Fixed screen load timeout issue. Root Cause: Timeout due to heavy data load.",R4,Major,Normal
+Automation - Unable to launch MM03 transaction,COTEST-0021,Bug,New,COTEST,SAMUEL,SHEEBA,12/11/2025 01:00,12/11/2025 13:00,"During automation execution for transaction MM03, an unexpected issue occurred. The system halted unexpectedly.",MM03_error_1300.png,"12/Nov/25 03:22;SNEHA;Issue reproduced across environments; further analysis required.
+12/Nov/25 01:15;SHEEBA;Technical team reviewing logs to identify workflow deviation.
+12/Nov/25 02:02;PINKY;Issue observed repeatedly during automation execution. Requires detailed investigation.
+12/Nov/25 02:58;SNEHA;Issue reproduced across environments; further analysis required. Resolution: Under investigation. Root Cause: Unknown.",R1.2,Major,Normal
+Automation - Unexpected error while navigating to MM41,COTEST-0022,Bug,Closed,COTEST,PINKY,SHEEBA,17/11/2025 03:00,18/11/2025 16:00,"During automation execution for transaction MM41, an unexpected issue occurred. The system halted unexpectedly.",MM41_error_1600.png,"17/Nov/25 05:52;SNEHA;Technical team reviewing logs to identify workflow deviation.
+17/Nov/25 03:09;SUBHRA;Retest in progress after updated data setup. Resolution: Under investigation. Root Cause: Unknown.",R1.2,Major,High
+VF03 - System returned blank screen during automation,COTEST-0023,Bug,New,COTEST,SHEEBA,ROSHA,04/11/2025 02:00,05/11/2025 22:00,"During automation execution for transaction VF03, an unexpected issue occurred. The system halted unexpectedly.",VF03_error_2200.png,"04/Nov/25 02:37;PINKY;Issue reproduced across environments; further analysis required.
+04/Nov/25 02:32;SUBHRA;Retest in progress after updated data setup.
+04/Nov/25 02:30;SHEEBA;Retest in progress after updated data setup. Resolution: Patched UI rendering bug. Root Cause: Null pointer exception in UI module.",R2,Moderate,Normal
+Automation - Unable to launch VF03 transaction,COTEST-0024,Bug,Reopened,COTEST,SNEHA,SHEEBA,05/11/2025 21:00,06/11/2025 19:00,"During automation execution for transaction VF03, an unexpected issue occurred. The system halted unexpectedly.",VF03_error_1900.png,"05/Nov/25 22:45;SHEEBA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+05/Nov/25 22:08;ROSHA;Issue reproduced across environments; further analysis required.
+05/Nov/25 22:23;ROSHA;Retest in progress after updated data setup.
+05/Nov/25 23:13;PINKY;Retest in progress after updated data setup.
+05/Nov/25 21:43;SHEEBA;Technical team reviewing logs to identify workflow deviation. Resolution: Under investigation. Root Cause: Unknown.",R3.1,Major,Normal
+Automation - Unexpected error while navigating to ME23N,COTEST-0025,Bug,Reopened,COTEST,SUBHRA,ROSHA,21/11/2025 18:00,22/11/2025 02:00,"During automation execution for transaction ME23N, an unexpected issue occurred. The system halted unexpectedly.",ME23N_error_0200.png,"21/Nov/25 20:49;SNEHA;Technical team reviewing logs to identify workflow deviation.
+21/Nov/25 19:30;SHEEBA;Fix deployed for validation; monitoring continues.
+21/Nov/25 18:03;PINKY;Retest in progress after updated data setup.
+21/Nov/25 18:25;SAMUEL;Retest in progress after updated data setup. Resolution: Under investigation. Root Cause: Unknown.",R2,Major,Normal
+MB51 - System returned blank screen during automation,COTEST-0026,Bug,New,COTEST,SHEEBA,SUBHRA,20/11/2025 10:00,21/11/2025 16:00,"During automation execution for transaction MB51, an unexpected issue occurred. The system halted unexpectedly.",MB51_error_1600.png,"20/Nov/25 11:09;PINKY;Issue reproduced across environments; further analysis required.
+20/Nov/25 12:33;SHEEBA;Retest in progress after updated data setup.
+20/Nov/25 12:58;PINKY;Fix deployed for validation; monitoring continues.
+20/Nov/25 10:37;SAMUEL;Issue reproduced across environments; further analysis required.
+20/Nov/25 11:04;ROSHA;Issue reproduced across environments; further analysis required. Resolution: Patched UI rendering bug. Root Cause: Null pointer exception in UI module.",R4,Major,Low
+Test Automation - Screen load failure in ME23N,COTEST-0027,Bug,Closed,COTEST,ROSHA,SUBHRA,30/11/2025 23:00,02/12/2025 21:00,"During automation execution for transaction ME23N, an unexpected issue occurred. The system halted unexpectedly.",ME23N_error_2100.png,"01/Dec/25 00:45;SUBHRA;Issue reproduced across environments; further analysis required.
+01/Dec/25 00:16;ROSHA;Technical team reviewing logs to identify workflow deviation.
+30/Nov/25 23:07;ROSHA;Retest in progress after updated data setup. Resolution: Fixed screen load timeout issue. Root Cause: Timeout due to heavy data load.",R4,Major,High
+VF03 - Validation step failure during automated run,COTEST-0028,Bug,Closed,COTEST,ROSHA,SHEEBA,20/11/2025 18:00,21/11/2025 11:00,"During automation execution for transaction VF03, an unexpected issue occurred. The system halted unexpectedly.",VF03_error_1100.png,"20/Nov/25 18:24;SAMUEL;Fix deployed for validation; monitoring continues.
+20/Nov/25 18:17;SNEHA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+20/Nov/25 21:00;SAMUEL;Issue reproduced across environments; further analysis required. Resolution: Under investigation. Root Cause: Unknown.",R4.1,Minor,Normal
+Automation - Unexpected error while navigating to MM41,COTEST-0029,Bug,New,COTEST,SNEHA,SUBHRA,21/11/2025 02:00,21/11/2025 10:00,"During automation execution for transaction MM41, an unexpected issue occurred. The system halted unexpectedly.",MM41_error_1000.png,"21/Nov/25 03:42;SHEEBA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+21/Nov/25 02:47;SNEHA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+21/Nov/25 02:32;SNEHA;Issue reproduced across environments; further analysis required.
+21/Nov/25 03:43;SAMUEL;Technical team reviewing logs to identify workflow deviation. Resolution: Under investigation. Root Cause: Unknown.",R3.1,Minor,Normal
+Automation - Login flow broken when accessing MM03,COTEST-0030,Bug,Reopened,COTEST,PINKY,SUBHRA,23/11/2025 04:00,24/11/2025 01:00,"During automation execution for transaction MM03, an unexpected issue occurred. The system halted unexpectedly.",MM03_error_0100.png,"23/Nov/25 05:36;PINKY;Issue observed repeatedly during automation execution. Requires detailed investigation.
+23/Nov/25 04:24;ROSHA;Retest in progress after updated data setup.
+23/Nov/25 05:32;SUBHRA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+23/Nov/25 05:52;PINKY;Issue observed repeatedly during automation execution. Requires detailed investigation. Resolution: Corrected login authentication logic. Root Cause: Incorrect session handling.",R1.1,Major,Low
+Automation - Unable to launch MB51 transaction,COTEST-0031,Bug,In Progress,COTEST,SHEEBA,SAMUEL,16/11/2025 10:00,17/11/2025 22:00,"During automation execution for transaction MB51, an unexpected issue occurred. The system halted unexpectedly.",MB51_error_2200.png,"16/Nov/25 11:07;PINKY;Fix deployed for validation; monitoring continues.
+16/Nov/25 12:33;SNEHA;Retest in progress after updated data setup. Resolution: Under investigation. Root Cause: Unknown.",R2,Major,Normal
+Automation - Unexpected error while navigating to MM41,COTEST-0032,Bug,Reopened,COTEST,SAMUEL,SHEEBA,09/11/2025 07:00,09/11/2025 18:00,"During automation execution for transaction MM41, an unexpected issue occurred. The system halted unexpectedly.",MM41_error_1800.png,"09/Nov/25 09:42;SUBHRA;Retest in progress after updated data setup.
+09/Nov/25 07:12;SUBHRA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+09/Nov/25 09:09;SHEEBA;Fix deployed for validation; monitoring continues. Resolution: Under investigation. Root Cause: Unknown.",R3.1,Minor,Normal
+Automation - Login flow broken when accessing MM41,COTEST-0033,Bug,New,COTEST,SHEEBA,ROSHA,25/11/2025 12:00,26/11/2025 11:00,"During automation execution for transaction MM41, an unexpected issue occurred. The system halted unexpectedly.",MM41_error_1100.png,"25/Nov/25 13:58;SAMUEL;Technical team reviewing logs to identify workflow deviation.
+25/Nov/25 12:31;PINKY;Issue observed repeatedly during automation execution. Requires detailed investigation.
+25/Nov/25 14:08;SNEHA;Technical team reviewing logs to identify workflow deviation.
+25/Nov/25 13:48;SAMUEL;Issue reproduced across environments; further analysis required.
+25/Nov/25 14:06;ROSHA;Technical team reviewing logs to identify workflow deviation. Resolution: Corrected login authentication logic. Root Cause: Incorrect session handling.",R1.1,Major,High
+ME21N - Validation step failure during automated run,COTEST-0034,Bug,In Progress,COTEST,SUBHRA,PINKY,20/11/2025 13:00,21/11/2025 18:00,"During automation execution for transaction ME21N, an unexpected issue occurred. The system halted unexpectedly.",ME21N_error_1800.png,"20/Nov/25 14:45;SUBHRA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+20/Nov/25 14:27;PINKY;Technical team reviewing logs to identify workflow deviation.
+20/Nov/25 15:13;SHEEBA;Technical team reviewing logs to identify workflow deviation.
+20/Nov/25 13:29;SAMUEL;Fix deployed for validation; monitoring continues.
+20/Nov/25 14:49;SHEEBA;Fix deployed for validation; monitoring continues. Resolution: Under investigation. Root Cause: Unknown.",R2,Major,Normal
+Test Automation - Screen load failure in MM41,COTEST-0035,Bug,Closed,COTEST,ROSHA,SHEEBA,28/11/2025 00:00,29/11/2025 16:00,"During automation execution for transaction MM41, an unexpected issue occurred. The system halted unexpectedly.",MM41_error_1600.png,"28/Nov/25 01:16;SNEHA;Technical team reviewing logs to identify workflow deviation.
+28/Nov/25 01:35;SAMUEL;Technical team reviewing logs to identify workflow deviation. Resolution: Fixed screen load timeout issue. Root Cause: Timeout due to heavy data load.",R1.1,Moderate,Normal
+MM03 - Validation step failure during automated run,COTEST-0036,Bug,Reopened,COTEST,SNEHA,SAMUEL,11/11/2025 18:00,12/11/2025 15:00,"During automation execution for transaction MM03, an unexpected issue occurred. The system halted unexpectedly.",MM03_error_1500.png,"11/Nov/25 20:54;SNEHA;Technical team reviewing logs to identify workflow deviation.
+11/Nov/25 19:28;SHEEBA;Technical team reviewing logs to identify workflow deviation.
+11/Nov/25 20:46;SNEHA;Retest in progress after updated data setup.
+11/Nov/25 18:54;ROSHA;Technical team reviewing logs to identify workflow deviation. Resolution: Under investigation. Root Cause: Unknown.",R2,Major,High
+Test Automation - Screen load failure in ME21N,COTEST-0037,Bug,Reopened,COTEST,PINKY,SNEHA,24/11/2025 13:00,25/11/2025 00:00,"During automation execution for transaction ME21N, an unexpected issue occurred. The system halted unexpectedly.",ME21N_error_0000.png,"24/Nov/25 13:22;SUBHRA;Issue reproduced across environments; further analysis required.
+24/Nov/25 13:03;SAMUEL;Technical team reviewing logs to identify workflow deviation. Resolution: Fixed screen load timeout issue. Root Cause: Timeout due to heavy data load.",R4,Moderate,Normal
+MM03 - Validation step failure during automated run,COTEST-0038,Bug,In Progress,COTEST,ROSHA,SNEHA,07/11/2025 06:00,08/11/2025 05:00,"During automation execution for transaction MM03, an unexpected issue occurred. The system halted unexpectedly.",MM03_error_0500.png,"07/Nov/25 08:26;SNEHA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+07/Nov/25 08:33;PINKY;Technical team reviewing logs to identify workflow deviation.
+07/Nov/25 07:57;ROSHA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+07/Nov/25 08:52;ROSHA;Retest in progress after updated data setup. Resolution: Under investigation. Root Cause: Unknown.",R2.1,Major,Normal
+Automation - Login flow broken when accessing FB03,COTEST-0039,Bug,New,COTEST,ROSHA,SNEHA,28/11/2025 01:00,29/11/2025 05:00,"During automation execution for transaction FB03, an unexpected issue occurred. The system halted unexpectedly.",FB03_error_0500.png,"28/Nov/25 03:38;SHEEBA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+28/Nov/25 01:13;SHEEBA;Fix deployed for validation; monitoring continues.
+28/Nov/25 03:50;ROSHA;Technical team reviewing logs to identify workflow deviation.
+28/Nov/25 02:46;ROSHA;Fix deployed for validation; monitoring continues.
+28/Nov/25 02:41;SHEEBA;Fix deployed for validation; monitoring continues. Resolution: Corrected login authentication logic. Root Cause: Incorrect session handling.",R2.1,Major,Normal
+Automation - Unexpected error while navigating to FB03,COTEST-0040,Bug,Open,COTEST,ROSHA,SNEHA,23/11/2025 17:00,23/11/2025 19:00,"During automation execution for transaction FB03, an unexpected issue occurred. The system halted unexpectedly.",FB03_error_1900.png,"23/Nov/25 18:25;SAMUEL;Retest in progress after updated data setup.
+23/Nov/25 17:47;SUBHRA;Retest in progress after updated data setup. Resolution: Under investigation. Root Cause: Unknown.",R3.1,Major,Normal
+Test Automation - Screen load failure in MIRO,COTEST-0041,Bug,Closed,COTEST,SHEEBA,SAMUEL,27/11/2025 08:00,28/11/2025 05:00,"During automation execution for transaction MIRO, an unexpected issue occurred. The system halted unexpectedly.",MIRO_error_0500.png,"27/Nov/25 08:33;PINKY;Retest in progress after updated data setup.
+27/Nov/25 10:00;PINKY;Issue reproduced across environments; further analysis required.
+27/Nov/25 09:40;PINKY;Technical team reviewing logs to identify workflow deviation. Resolution: Fixed screen load timeout issue. Root Cause: Timeout due to heavy data load.",R3.1,Moderate,Normal
+Automation - Unexpected error while navigating to MM41,COTEST-0042,Bug,New,COTEST,PINKY,SAMUEL,12/11/2025 18:00,12/11/2025 23:00,"During automation execution for transaction MM41, an unexpected issue occurred. The system halted unexpectedly.",MM41_error_2300.png,"12/Nov/25 19:38;PINKY;Issue reproduced across environments; further analysis required.
+12/Nov/25 19:24;SAMUEL;Technical team reviewing logs to identify workflow deviation. Resolution: Under investigation. Root Cause: Unknown.",R3.1,Minor,Normal
+MM41 - Validation step failure during automated run,COTEST-0043,Bug,Closed,COTEST,PINKY,SAMUEL,01/11/2025 19:00,02/11/2025 16:00,"During automation execution for transaction MM41, an unexpected issue occurred. The system halted unexpectedly.",MM41_error_1600.png,"01/Nov/25 19:03;SAMUEL;Retest in progress after updated data setup.
+01/Nov/25 21:35;SNEHA;Technical team reviewing logs to identify workflow deviation.
+01/Nov/25 19:40;PINKY;Issue observed repeatedly during automation execution. Requires detailed investigation.
+01/Nov/25 19:13;ROSHA;Issue reproduced across environments; further analysis required.
+01/Nov/25 19:27;SAMUEL;Technical team reviewing logs to identify workflow deviation. Resolution: Under investigation. Root Cause: Unknown.",R1.2,Moderate,Normal
+ME21N - Validation step failure during automated run,COTEST-0044,Bug,Reopened,COTEST,PINKY,SAMUEL,04/11/2025 11:00,06/11/2025 09:00,"During automation execution for transaction ME21N, an unexpected issue occurred. The system halted unexpectedly.",ME21N_error_0900.png,"04/Nov/25 11:44;PINKY;Issue observed repeatedly during automation execution. Requires detailed investigation.
+04/Nov/25 13:05;SAMUEL;Technical team reviewing logs to identify workflow deviation.
+04/Nov/25 13:08;SUBHRA;Issue observed repeatedly during automation execution. Requires detailed investigation.
+04/Nov/25 11:02;PINKY;Technical team reviewing logs to identify workflow deviation. Resolution: Under investigation. Root Cause: Unknown.",R2,Major,Normal
+Test Automation - Screen load failure in MM41,COTEST-0045,Bug,Closed,COTEST,ROSHA,PINKY,01/12/2025 00:00,02/12/2025 01:00,"During automation execution for transaction MM41, an unexpected issue occurred. The system halted unexpectedly.",MM41_error_0100.png,"01/Dec/25 00:46;PINKY;Retest in progress after updated data setup.
+01/Dec/25 00:42;SAMUEL;Fix deployed for validation; monitoring continues.
+01/Dec/25 01:56;ROSHA;Technical team reviewing logs to identify workflow deviation.
+01/Dec/25 02:38;SAMUEL;Issue reproduced across environments; further analysis required.
+01/Dec/25 00:30;SUBHRA;Technical team reviewing logs to identify workflow deviation. Resolution: Fixed screen load timeout issue. Root Cause: Timeout due to heavy data load.",R2.1,Major,Normal
+ME23N - System returned blank screen during automation,COTEST-0046,Bug,New,COTEST,SNEHA,ROSHA,24/11/2025 17:00,25/11/2025 12:00,"During automation execution for transaction ME23N, an unexpected issue occurred. The system halted unexpectedly.",ME23N_error_1200.png,"24/Nov/25 17:50;SHEEBA;Issue reproduced across environments; further analysis required.
+24/Nov/25 17:25;SNEHA;Fix deployed for validation; monitoring continues.
+24/Nov/25 18:13;SNEHA;Fix deployed for validation; monitoring continues. Resolution: Patched UI rendering bug. Root Cause: Null pointer exception in UI module.",R4,Major,Normal
+Automation - Unexpected error while navigating to VF03,COTEST-0047,Bug,New,COTEST,SHEEBA,SNEHA,03/11/2025 03:00,04/11/2025 13:00,"During automation execution for transaction VF03, an unexpected issue occurred. The system halted unexpectedly.",VF03_error_1300.png,"03/Nov/25 06:00;SAMUEL;Retest in progress after updated data setup.
+03/Nov/25 03:40;PINKY;Issue observed repeatedly during automation execution. Requires detailed investigation.
+03/Nov/25 04:20;SNEHA;Fix deployed for validation; monitoring continues. Resolution: Under investigation. Root Cause: Unknown.",R1.2,Major,High
+MIRO - Validation step failure during automated run,COTEST-0048,Bug,Closed,COTEST,PINKY,ROSHA,18/11/2025 04:00,19/11/2025 07:00,"During automation execution for transaction MIRO, an unexpected issue occurred. The system halted unexpectedly.",MIRO_error_0700.png,"18/Nov/25 05:56;SHEEBA;Fix deployed for validation; monitoring continues.
+18/Nov/25 05:59;SAMUEL;Issue reproduced across environments; further analysis required.
+18/Nov/25 05:47;SAMUEL;Issue observed repeatedly during automation execution. Requires detailed investigation.
+18/Nov/25 06:14;PINKY;Fix deployed for validation; monitoring continues.
+18/Nov/25 05:56;SNEHA;Retest in progress after updated data setup. Resolution: Under investigation. Root Cause: Unknown.",R2,Major,Normal
+Test Automation - Screen load failure in ME23N,COTEST-0049,Bug,Open,COTEST,ROSHA,PINKY,10/11/2025 23:00,12/11/2025 19:00,"During automation execution for transaction ME23N, an unexpected issue occurred. The system halted unexpectedly.",ME23N_error_1900.png,"10/Nov/25 23:07;SNEHA;Issue reproduced across environments; further analysis required.
+11/Nov/25 01:22;SHEEBA;Issue reproduced across environments; further analysis required. Resolution: Fixed screen load timeout issue. Root Cause: Timeout due to heavy data load.",R3.1,Major,Normal
+Test Automation - Screen load failure in MM41,COTEST-0050,Bug,New,COTEST,ROSHA,SUBHRA,26/11/2025 15:00,28/11/2025 03:00,"During automation execution for transaction MM41, an unexpected issue occurred. The system halted unexpectedly.",MM41_error_0300.png,"26/Nov/25 17:04;SAMUEL;Technical team reviewing logs to identify workflow deviation.
+26/Nov/25 16:47;ROSHA;Issue reproduced across environments; further analysis required.
+26/Nov/25 17:52;PINKY;Technical team reviewing logs to identify workflow deviation.
+26/Nov/25 15:16;ROSHA;Issue reproduced across environments; further analysis required. Resolution: Fixed screen load timeout issue. Root Cause: Timeout due to heavy data load.",R3.1,Major,Normal
+
+Login issue,COTEST-0051,Bug,New,COTEST,,SYSTEM,20/02/2026 08:43,20/02/2026 08:43,dfdfd,,"**Root Cause:** Unknown
+**Resolution:** Under investigation.
+**Impacted Test Sets:** set_1, set_5
+**Impacted Test Cases:** TC_102, TC_105",,P1,
+xcxcx,COTEST-0052,Bug,New,COTEST,,SYSTEM,06/03/2026 08:56,06/03/2026 08:56,dfdf,,"**Root Cause:** Unknown
+**Resolution:** Under investigation.
+**Impacted Test Sets:** test1
+**Impacted Test Cases:** test 2",,P1,
+login issue,COTEST-0053,Bug,New,COTEST,,SYSTEM,06/03/2026 12:15,06/03/2026 12:15,login issue facing while accessing MM43,,"**Root Cause:** Unknown
+**Resolution:** Under investigation.
+**Impacted Test Sets:** test1
+**Impacted Test Cases:** test 2",,P1,
+xcxcx,COTEST-0054,Bug,New,COTEST,,SYSTEM,22/03/2026 12:07,22/03/2026 12:07,dddf,Screenshot 2025-09-16 133131.png,"**Root Cause:** Unknown
+**Resolution:** Under investigation.
+**Impacted Test Sets:** test1
+**Impacted Test Cases:** test 2",,P1,
+Authcode issue,COTEST-0055,Bug,New,COTEST,,SYSTEM,22/03/2026 12:33,22/03/2026 12:33,authcode issue,,"**Root Cause:** Unknown
+**Resolution:** Under investigation.
+**Impacted Test Sets:** TS_1
+**Impacted Test Cases:** TC-101",,P1,
+dfd,COTEST-0056,Bug,New,COTEST,,SYSTEM,22/03/2026 12:57,22/03/2026 12:57,dvc,Screenshot 2025-09-16 133131.png,"**Root Cause:** Unknown
+**Resolution:** Under investigation.",,P1,
+AUTOMI login crashed,COTEST-0057,Bug,New,COTEST,,SYSTEM,16/04/2026 11:27,16/04/2026 11:27,Unable to login with AutOMI user,New Text Document.txt,"**Root Cause:** Unknown
+**Resolution:** Under investigation.",,P1,
+AUTOMI login crashed,COTEST-0058,Bug,New,COTEST,,SYSTEM,16/04/2026 15:07,16/04/2026 15:07,ccvvb,,"**Root Cause:** Unknown
+**Resolution:** Under investigation.",,P1,
+AUTOMI login crashed,COTEST-0059,Bug,New,COTEST,,SYSTEM,16/04/2026 15:45,16/04/2026 15:45,dfdfdf,,"**Root Cause:** Unknown
+**Resolution:** Under investigation.",,P1,
+auth error,COTEST-0060,Bug,New,COTEST,,SYSTEM,16/04/2026 16:08,16/04/2026 16:08,auth error in me21n,,"**Root Cause:** Unknown
+**Resolution:** Under investigation.",,P1,
+ME23N Screen Loading Timed Out During Transaction,COTEST-0061,Bug,New,COTEST,,SYSTEM,20/04/2026 09:25,20/04/2026 09:25,ME23N Screen Loading Timed Out During Transaction,,"**Root Cause:** Unknown
+**Resolution:** Under investigation.",,P1,
+Payment Terms Failed Issue in FB50 TCODE for Order Placements,COTEST-0062,Bug,New,COTEST,,SYSTEM,20/04/2026 12:49,20/04/2026 12:49,facing payment terms failed issue,Screenshot 2025-09-16 133131.png,"**Root Cause:** Unknown
+**Resolution:** Under investigation.",,P1,
+Payment Terms Not Successful in ME21N T-Code,COTEST-0063,Bug,New,COTEST,,SYSTEM,21/04/2026 05:31,21/04/2026 05:31,Payment terms not succesfful facing auth code issue,Screenshot 2025-09-16 133131.png,"**Root Cause:** Unknown
+**Resolution:** Under investigation.",,P1,
+PO Creation in ME21N: Missing Mandatory Field Does Not Trigger Error,COTEST-0064,Bug,New,COTEST,,SYSTEM,21/04/2026 12:06,21/04/2026 12:06,system not showing any error PO gets created with incomplete details,Screenshot 2025-09-16 133131.png,"**Root Cause:** Unknown
+**Resolution:** Under investigation.",,P1,
