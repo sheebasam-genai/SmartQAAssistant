@@ -1,0 +1,15 @@
+fastapi           # Web framework to build APIs (backend for chatbot/QA agent)
+uvicorn[standard] # ASGI server to run FastAPI apps in production (with speed optimizations)
+openai            # Official OpenAI SDK to call GPT models for chat, embeddings, etc.
+faiss-cpu         # Facebook AI Similarity Search (vector DB) for fast similarity search on embeddings
+python-dotenv     # Load environment variables (like API keys) from a .env file
+pydantic          # Data validation and type enforcement (used in FastAPI models/settings)
+rich              # Pretty terminal output (colorful logs, tables, progress display)
+numpy             # Numerical computations, arrays, required for FAISS and embedding operations
+tqdm              # Progress bars for loops (e.g., when embedding many documents)
+streamlit         # Quick frontend/UI framework to build chatbot or dashboard apps
+langchain>=0.3.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+chromadb
+sentence-transformers

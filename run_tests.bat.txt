@@ -1,0 +1,5 @@
+@echo off
+echo Running Smart QA Automation Suite...
+pytest -v --html=report.html
+start report.html
+pause

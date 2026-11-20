@@ -1,0 +1,26 @@
+{
+  "conversations": [
+    {
+      "session_id": "session1",
+      "messages": [
+        {
+          "id": "8bc86e6f-2b32-46b0-8ca0-c2e44c38d943",
+          "timestamp": "2026-04-20T14:40:08.415722",
+          "user_query": "q1",
+          "assistant_response": "a1",
+          "tokens_used": {},
+          "defect_ids_mentioned": []
+        },
+        {
+          "id": "63abd994-c201-495f-b1c8-3794865bfbc0",
+          "timestamp": "2026-04-20T14:40:08.417029",
+          "user_query": "q2",
+          "assistant_response": "a2",
+          "tokens_used": {},
+          "defect_ids_mentioned": []
+        }
+      ]
+    }
+  ],
+  "defect_history": []
+}
